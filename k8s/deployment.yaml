@@ -53,7 +53,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: diegolobo7/kube-news:latest
+      - image: diegolobo7/kube-news:{{TAG}}
         name: web        
         ports:
         - containerPort: 8080
